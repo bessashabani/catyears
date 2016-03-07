@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		C00370601C39D838007AC207 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C003705E1C39D838007AC207 /* LaunchScreen.storyboard */; };
 		C003706B1C39D838007AC207 /* CatYearsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C003706A1C39D838007AC207 /* CatYearsTests.swift */; };
 		C00370761C39D838007AC207 /* CatYearsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00370751C39D838007AC207 /* CatYearsUITests.swift */; };
+		C00370841C39DB08007AC207 /* cat_5.png in Resources */ = {isa = PBXBuildFile; fileRef = C00370831C39DB08007AC207 /* cat_5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		C00370521C39D838007AC207 /* CatYears.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatYears.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C00370551C39D838007AC207 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C00370571C39D838007AC207 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C00370571C39D838007AC207 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
 		C003705A1C39D838007AC207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C003705C1C39D838007AC207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C003705F1C39D838007AC207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		C00370711C39D838007AC207 /* CatYearsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatYearsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C00370751C39D838007AC207 /* CatYearsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatYearsUITests.swift; sourceTree = "<group>"; };
 		C00370771C39D838007AC207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C00370831C39DB08007AC207 /* cat_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat_5.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				C00370551C39D838007AC207 /* AppDelegate.swift */,
 				C00370571C39D838007AC207 /* ViewController.swift */,
 				C00370591C39D838007AC207 /* Main.storyboard */,
+				C00370831C39DB08007AC207 /* cat_5.png */,
 				C003705C1C39D838007AC207 /* Assets.xcassets */,
 				C003705E1C39D838007AC207 /* LaunchScreen.storyboard */,
 				C00370611C39D838007AC207 /* Info.plist */,
@@ -205,7 +208,7 @@
 				};
 			};
 			buildConfigurationList = C003704D1C39D837007AC207 /* Build configuration list for PBXProject "CatYears" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C00370841C39DB08007AC207 /* cat_5.png in Resources */,
 				C00370601C39D838007AC207 /* LaunchScreen.storyboard in Resources */,
 				C003705D1C39D838007AC207 /* Assets.xcassets in Resources */,
 				C003705B1C39D838007AC207 /* Main.storyboard in Resources */,
@@ -482,6 +486,7 @@
 				C003707C1C39D838007AC207 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C003707D1C39D838007AC207 /* Build configuration list for PBXNativeTarget "CatYearsTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				C003707F1C39D838007AC207 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C00370801C39D838007AC207 /* Build configuration list for PBXNativeTarget "CatYearsUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				C00370821C39D838007AC207 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
